@@ -1,6 +1,6 @@
 {
   "name": "egg-elasticsearch-client",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "elasticsearch-client for egg.js",
   "eggPlugin": {
     "name": "elasticsearchClient"
