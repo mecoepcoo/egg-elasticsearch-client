@@ -3,5 +3,5 @@
 const client = require('./lib/client');
 
 module.exports = agent => {
-  if (app.config.elasticsearchClient.eggAgent) client(agent);
+  if (agent.config.elasticsearchClient.eggAgent) client(agent);
 };
