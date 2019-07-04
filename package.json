@@ -1,0 +1,58 @@
+{
+  "name": "egg-elasticsearch-client",
+  "version": "0.0.1",
+  "description": "elasticsearch-client for egg.js",
+  "eggPlugin": {
+    "name": "elasticsearchClient"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "eggElasticsearch",
+    "egg-elasticsearch"
+  ],
+  "dependencies": {
+    "@elastic/elasticsearch": "^5.6.18"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "app"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mecoepcoo/egg-elasticsearch-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mecoepcoo/egg-elasticsearch-client/issues"
+  },
+  "homepage": "https://github.com/mecoepcoo/egg-elasticsearch-client/issues#readme",
+  "author": "Tianzhen",
+  "license": "MIT"
+}
