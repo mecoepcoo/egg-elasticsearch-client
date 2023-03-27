@@ -1,6 +1,6 @@
 {
-  "name": "egg-elasticsearch-client",
-  "version": "5.0.1",
+  "name": "egg-es-client",
+  "version": "1.0.1",
   "description": "elasticsearch-client for egg.js",
   "eggPlugin": {
     "name": "elasticsearchClient"
@@ -13,7 +13,7 @@
     "egg-elasticsearch"
   ],
   "dependencies": {
-    "@elastic/elasticsearch": "^5.6.18"
+    "@elastic/elasticsearch": "^8.5.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -48,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mecoepcoo/egg-elasticsearch-client.git"
+    "url": "git+https://github.com/CheaterScript/egg-elasticsearch-client.git"
   },
   "bugs": {
-    "url": "https://github.com/mecoepcoo/egg-elasticsearch-client/issues"
+    "url": "https://github.com/CheaterScript/egg-elasticsearch-client/issues"
   },
-  "homepage": "https://github.com/mecoepcoo/egg-elasticsearch-client/issues#readme",
-  "author": "Tianzhen",
+  "homepage": "https://github.com/CheaterScript/egg-elasticsearch-client/issues#readme",
+  "author": "AI&I",
   "license": "MIT"
 }
